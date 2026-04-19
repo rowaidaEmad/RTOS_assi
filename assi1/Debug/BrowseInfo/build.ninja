@@ -1,0 +1,61 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\bsp.c -xcl_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.xcl -macro_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\bsp.c -o C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -On --predef_macros C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.tmp
+  rspfile_name = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.xcl.rsp
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\main.c -xcl_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.xcl -macro_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\main.c -o C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -On --predef_macros C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\startup_ewarm.c -xcl_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.xcl -macro_file C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\startup_ewarm.c -o C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -On --predef_macros C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.tmp
+  rspfile_name = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.pbi : INDEXER C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.xcl |  $
+C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\bsp.c
+  flags = -out=C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.pbi -f C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.xcl
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.pbi : INDEXER C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.xcl |  $
+C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\main.c
+  flags = -out=C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.pbi -f C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.xcl
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.xcl |  $
+C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\startup_ewarm.c
+  flags = -out=C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.pbi -f C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.xcl
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbw : MAKEBROWSE C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbd
+  flags = C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbd -output C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbw
+
+build C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbd : PDBLINK C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.pbi |  $
+C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.pbi $
+C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.pbi
+  flags = -M C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\07-Lesson23-4-TwoTasks_PC_Hack.pbd C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\bsp.pbi C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\main.pbi C$:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\BrowseInfo\startup_ewarm.pbi
+

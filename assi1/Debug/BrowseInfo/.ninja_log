@@ -1,0 +1,53 @@
+# ninja log v5
+1	122	7606639020000000	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.xcl	f61200084d94cbe3
+129	285	7606639021937619	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	ecb2b32da0d3655b
+295	319	7606639022286520	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	1958089332d1b2c6
+329	645	7606639025426115	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	e930dd42a7e5e780
+1	81	7606639177558975	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	ecb2b32da0d3655b
+88	118	7606639177950071	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	1958089332d1b2c6
+125	848	7606639185010903	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	e930dd42a7e5e780
+1	118	7606639710000000	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.xcl	7083f5129aec0a75
+12	132	7606639710000000	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.xcl	e5304981b9fa4eec
+19	145	7606639710000000	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.xcl	c164ca211d60a142
+127	179	7606639715275905	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.pbi	80ce91b21b42874d
+141	226	7606639715729049	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	ecb2b32da0d3655b
+155	237	7606639715853384	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.pbi	74f130e4c5765457
+243	317	7606639716662667	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	cedbcf3e1a7c2544
+326	1510	7606639728212753	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	e930dd42a7e5e780
+0	509	7926001490000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.xcl	9459f788df0b53f5
+45	524	7926001490000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.xcl	e434fdd078f14142
+50	541	7926001490000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.xcl	1957928f9999321e
+538	666	7926001495158921	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.pbi	a3f3581ab0efa881
+520	689	7926001495257807	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+556	696	7926001495418368	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.pbi	d3d600d394b003f0
+702	769	7926001496209349	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+780	2057	7926001508668085	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	158	7926028638459519	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+181	291	7926028639846411	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+320	2484	7926028660988432	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+2	253	7926029580000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.xcl	8dcdae96f0bd9e51
+20	282	7926029580000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.xcl	cea84af677aff5d9
+28	313	7926029580000000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.xcl	c061d37140816dc7
+337	447	7926029583610000	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/startup_ewarm.pbi	a3f3581ab0efa881
+276	497	7926029584090193	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+307	520	7926029584330793	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/bsp.pbi	d3d600d394b003f0
+538	679	7926029585940049	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+707	2693	7926029605198932	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	165	7926062097103123	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+190	336	7926062098868451	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+374	2685	7926062121542099	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	187	7926063445056382	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+209	316	7926063446361924	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+347	2843	7926063470790102	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	158	7926064996998133	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+178	296	7926064998420967	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+318	2343	7926065018163705	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	166	7926068779178426	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+185	370	7926068781253606	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+1	2638	7926068864418282	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+1	236	7926135766077575	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+244	373	7926135767507039	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+1	1254	7926135835815440	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3
+2	197	7926178973001450	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/main.pbi	e4396b921c870cbb
+215	370	7926178974870663	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbd	fa802c9c2dcbe8dd
+2	2769	7926179054021699	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/BrowseInfo/07-Lesson23-4-TwoTasks_PC_Hack.pbw	9f26d5e32f3129f3

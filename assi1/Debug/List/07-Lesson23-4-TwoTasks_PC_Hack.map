@@ -1,0 +1,209 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  12/Feb/2026  18:44:58
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Exe\07-Lesson23-4-TwoTasks_PC_Hack.out
+#    Map file     =
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\List\07-Lesson23-4-TwoTasks_PC_Hack.map
+#    Command line =
+#        -f
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Exe\07-Lesson23-4-TwoTasks_PC_Hack.out.rsp
+#        (C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\bsp.o
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\main.o
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj\startup_ewarm.o
+#        --no_out_extension -o
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Exe\07-Lesson23-4-TwoTasks_PC_Hack.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\List\07-Lesson23-4-TwoTasks_PC_Hack.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                      0x26c
+  .intvec            const            0x0  0x26c  startup_ewarm.o [1]
+                                  - 0x26c  0x26c
+
+"P1":                                      0x228
+  .text              ro code        0x26c  0x10c  main.o [1]
+  .text              ro code        0x378   0x2a  copy_init3.o [4]
+  .text              ro code        0x3a4   0x28  data_init.o [4]
+  .text              ro code        0x3cc   0x22  fpinit_M.o [3]
+  .iar.init_table    const          0x3f0   0x14  - Linker created -
+  .text              ro code        0x404   0x1e  startup_ewarm.o [1]
+  .text              ro code        0x424   0x1c  cstartup_M.o [4]
+  .text              ro code        0x440   0x1e  cmain.o [4]
+  .text              ro code        0x45e    0x4  low_level_init.o [2]
+  .text              ro code        0x462    0x4  exit.o [2]
+  .text              ro code        0x468    0xa  cexit.o [4]
+  .text              ro code        0x474   0x14  exit.o [5]
+  Initializer bytes  const          0x488    0xc  <for P2-1>
+  .rodata            const          0x494    0x0  copy_init3.o [4]
+                                  - 0x494  0x228
+
+"P2", part 1 of 2:                           0xc
+  P2-1                        0x2000'0000    0xc  <Init block>
+    .data            inited   0x2000'0000    0x4  main.o [1]
+    .bss             inited   0x2000'0004    0x4  main.o [1]
+    .bss             inited   0x2000'0008    0x4  main.o [1]
+                            - 0x2000'000c    0xc
+
+"P2", part 2 of 2:                         0x200
+  .noinit            uninit   0x2000'000c  0x200  startup_ewarm.o [1]
+                            - 0x2000'020c  0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x494     0x3'ffff  0x3'fb6c
+  0x2000'020c  0x2000'7fff    0x7df4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+                0x488   0xc
+    1 destination range, total size 0xc:
+          0x2000'0000   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj: [1]
+    main.o                268       12       12
+    startup_ewarm.o        30      620      512
+    -------------------------------------------
+    Total:                298      632      524
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    copy_init3.o           42
+    cstartup_M.o           28
+    data_init.o            40
+    -------------------------------------------
+    Total:                150
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    8        2
+    Linker created                  20
+-----------------------------------------------
+    Grand Total:          518      654      524
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x3f0          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x404          --   Gb  - Linker created -
+?main                         0x441         Code  Gb  cmain.o [4]
+FaultISR                      0x41f    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler             0x421    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0x41d    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x3f0          --   Gb  - Linker created -
+Region$$Table$$Limit          0x404          --   Gb  - Linker created -
+ResetISR                      0x405   0x14  Code  Gb  startup_ewarm.o [1]
+SysTick_Handler               0x347    0xc  Code  Gb  main.o [1]
+__cmain                       0x441         Code  Gb  cmain.o [4]
+__exit                        0x475   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3              0x379   0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3              0x3a5   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x3cd         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x425         Code  Gb  cstartup_M.o [4]
+__low_level_init              0x45f    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main                    0x44d         Code  Gb  cmain.o [4]
+_exit                         0x469         Code  Gb  cexit.o [4]
+exit                          0x463    0x4  Code  Gb  exit.o [2]
+l_tickCtr               0x2000'0004    0x4  Data  Lc  main.o [1]
+main                          0x30d   0x3a  Code  Gb  main.o [1]
+main_blinky1                  0x26d   0x50  Code  Gb  main.o [1]
+main_blinky2                  0x2bd   0x50  Code  Gb  main.o [1]
+pui32Stack              0x2000'000c  0x200  Data  Lc  startup_ewarm.o [1]
+start                   0x2000'0008    0x4  Data  Gb  main.o [1]
+ticks                   0x2000'0000    0x4  Data  Gb  main.o [1]
+
+
+[1] = C:\Rowaida\Spring26\RTOS\workspaces_IAR\07-Lesson23-4-TwoTasks_PC_Hack\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  518 bytes of readonly  code memory
+  654 bytes of readonly  data memory
+  524 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

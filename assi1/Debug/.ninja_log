@@ -1,0 +1,39 @@
+# ninja log v5
+1	285	7606639701289615	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	dcca935b32ebb913
+9	306	7606639701376278	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	e6b0c198e1c384da
+14	314	7606639701542523	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	7ae70abf2be67a34
+323	385	7606639702335051	C:/Users/ahmed/OneDrive - Faculty of Engineering Ain Shams University/CSE411 Real-Time and Embedded Systems Design/01_Lectures/04-Lecture-Projects/01-IAR-Projects/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	fc21b083bd5f4b92
+1	468	7926001560564956	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	22f6d5fc81d3f000
+1	496	7926019914370904	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	22f6d5fc81d3f000
+1	214	7926021392450038	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	22f6d5fc81d3f000
+31	236	7926021434822389	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	5be50af20a185d8b
+21	287	7926021435151516	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	6c0ba9c872c7f7c3
+315	743	7926021439933965	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+1	503	7926029569422339	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+17	208	7926029692449628	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+3	266	7926029693005206	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+285	418	7926029694585512	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+32	185	7926030663718836	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+23	237	7926030664212508	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+3	303	7926030664847631	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+324	438	7926030666326725	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	6810edf91b0e65cd
+324	438	7926030666326725	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/List/07-Lesson23-4-TwoTasks_PC_Hack.map	6810edf91b0e65cd
+4	139	7926030692881301	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+1	210	7926032564307483	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+3	131	7926032591680826	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+27	172	7926062464726134	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+4	219	7926062465233498	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+25	178	7926063123833294	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+15	233	7926063124448091	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+32	185	7926063441650445	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+2	249	7926063442085500	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+31	186	7926065086390256	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/startup_ewarm.o	4d3dd1a10a337147
+21	240	7926065086958788	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/bsp.o	a5f8c79a6631606e
+1	292	7926065087425655	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+313	420	7926065088755107	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+3	694	7926068795982120	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+714	875	7926068797838175	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+2	407	7926135760739796	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+418	648	7926135763200166	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
+3	379	7926178980867672	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Obj/main.o	78d43db22d48d8c6
+412	538	7926178982468834	C:/Rowaida/Spring26/RTOS/workspaces_IAR/07-Lesson23-4-TwoTasks_PC_Hack/Debug/Exe/07-Lesson23-4-TwoTasks_PC_Hack.out	4287f755ce6a961f
