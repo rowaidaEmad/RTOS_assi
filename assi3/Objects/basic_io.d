@@ -1,6 +1,5 @@
 ./objects/basic_io.o: basic_io.c \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  ..\Example\consoleprint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h consoleprint.h \
   C:\Users\Eng.Rowaida\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
